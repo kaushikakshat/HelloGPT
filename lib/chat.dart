@@ -21,7 +21,7 @@ class _ChatState extends State<Chat> {
   List<Message> _messages = [];
 
   Future<void> _sendMessage(String message) async {
-    const apiKey = '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';
+    const apiKey = 'API Key'; // <------- *** PUT YOUR OpenAI KEY HERE ***
     const modelName = 'gpt-3.5-turbo';
     const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
